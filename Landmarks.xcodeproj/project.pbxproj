@@ -14,6 +14,9 @@
 		E6091FF02895072F00ADD99D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E6091FEF2895072F00ADD99D /* landmarkData.json */; };
 		E6091FF32895079C00ADD99D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF22895079C00ADD99D /* CircleImage.swift */; };
 		E6091FF5289508A000ADD99D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF4289508A000ADD99D /* MapView.swift */; };
+		E6091FF728950EA100ADD99D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF628950EA100ADD99D /* Landmark.swift */; };
+		E6091FF928950F1700ADD99D /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF828950F1700ADD99D /* Coordinates.swift */; };
+		E6091FFB2895102000ADD99D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FFA2895102000ADD99D /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		E6091FEF2895072F00ADD99D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		E6091FF22895079C00ADD99D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E6091FF4289508A000ADD99D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E6091FF628950EA100ADD99D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		E6091FF828950F1700ADD99D /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		E6091FFA2895102000ADD99D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 		E6091FEC2895046C00ADD99D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E6091FF628950EA100ADD99D /* Landmark.swift */,
+				E6091FF828950F1700ADD99D /* Coordinates.swift */,
+				E6091FFA2895102000ADD99D /* ModelData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,7 +191,10 @@
 				E6091FC72894FE2E00ADD99D /* ContentView.swift in Sources */,
 				E6091FF5289508A000ADD99D /* MapView.swift in Sources */,
 				E6091FC52894FE2E00ADD99D /* LandmarksApp.swift in Sources */,
+				E6091FF928950F1700ADD99D /* Coordinates.swift in Sources */,
 				E6091FF32895079C00ADD99D /* CircleImage.swift in Sources */,
+				E6091FF728950EA100ADD99D /* Landmark.swift in Sources */,
+				E6091FFB2895102000ADD99D /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
