@@ -12,6 +12,7 @@
 		E6091FC92894FE3200ADD99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6091FC82894FE3200ADD99D /* Assets.xcassets */; };
 		E6091FCC2894FE3200ADD99D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6091FCB2894FE3200ADD99D /* Preview Assets.xcassets */; };
 		E6091FF02895072F00ADD99D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E6091FEF2895072F00ADD99D /* landmarkData.json */; };
+		E6091FF32895079C00ADD99D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF22895079C00ADD99D /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E6091FC82894FE3200ADD99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6091FCB2894FE3200ADD99D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6091FEF2895072F00ADD99D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		E6091FF22895079C00ADD99D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E6091FED2895047400ADD99D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E6091FF12895078000ADD99D /* Helpers */,
 				E6091FC62894FE2E00ADD99D /* ContentView.swift */,
 			);
 			path = Views;
@@ -92,6 +95,14 @@
 				E6091FEF2895072F00ADD99D /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6091FF12895078000ADD99D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6091FF22895079C00ADD99D /* CircleImage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			files = (
 				E6091FC72894FE2E00ADD99D /* ContentView.swift in Sources */,
 				E6091FC52894FE2E00ADD99D /* LandmarksApp.swift in Sources */,
+				E6091FF32895079C00ADD99D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
