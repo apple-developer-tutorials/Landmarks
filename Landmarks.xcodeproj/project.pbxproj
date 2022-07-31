@@ -21,6 +21,7 @@
 		E6091FFF2896625E00ADD99D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FFE2896625E00ADD99D /* LandmarkList.swift */; };
 		E60920012896632A00ADD99D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60920002896632A00ADD99D /* LandmarkDetail.swift */; };
 		E60920032896BFD300ADD99D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60920022896BFD300ADD99D /* FavoriteButton.swift */; };
+		E642898D2896C60400837AEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E642898C2896C60400837AEE /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E6091FFE2896625E00ADD99D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		E60920002896632A00ADD99D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		E60920022896BFD300ADD99D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		E642898C2896C60400837AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E60920042896C0BB00ADD99D /* Landmarks */,
 				E6091FF12895078000ADD99D /* Helpers */,
 				E6091FC62894FE2E00ADD99D /* ContentView.swift */,
+				E642898C2896C60400837AEE /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E642898D2896C60400837AEE /* HexagonParameters.swift in Sources */,
 				E6091FC72894FE2E00ADD99D /* ContentView.swift in Sources */,
 				E6091FF5289508A000ADD99D /* MapView.swift in Sources */,
 				E6091FC52894FE2E00ADD99D /* LandmarksApp.swift in Sources */,
