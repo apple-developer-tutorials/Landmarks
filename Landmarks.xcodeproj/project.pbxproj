@@ -43,6 +43,7 @@
 		E6912539289E33C0006C5B73 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6912538289E33C0006C5B73 /* PageViewController.swift */; };
 		E691253B289E357E006C5B73 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691253A289E357E006C5B73 /* FeatureCard.swift */; };
 		E691253D289E3776006C5B73 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691253C289E3776006C5B73 /* PageView.swift */; };
+		E691253F28A0DDCD006C5B73 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691253E28A0DDCD006C5B73 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		E6912538289E33C0006C5B73 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E691253A289E357E006C5B73 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		E691253C289E3776006C5B73 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		E691253E28A0DDCD006C5B73 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				E6912538289E33C0006C5B73 /* PageViewController.swift */,
 				E691253A289E357E006C5B73 /* FeatureCard.swift */,
 				E691253C289E3776006C5B73 /* PageView.swift */,
+				E691253E28A0DDCD006C5B73 /* PageControl.swift */,
 			);
 			path = PageViews;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				E6091FF5289508A000ADD99D /* MapView.swift in Sources */,
 				E62B1009289B983B00054CD7 /* ProfileHost.swift in Sources */,
 				E62B100D289B9A6700054CD7 /* HikeBadge.swift in Sources */,
+				E691253F28A0DDCD006C5B73 /* PageControl.swift in Sources */,
 				E62B0FDB2898D8BE00054CD7 /* HikeGraph.swift in Sources */,
 				E62B1002289A3ADD00054CD7 /* CategoryRow.swift in Sources */,
 				E6091FC52894FE2E00ADD99D /* LandmarksApp.swift in Sources */,
