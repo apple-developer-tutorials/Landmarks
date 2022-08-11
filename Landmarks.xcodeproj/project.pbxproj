@@ -85,6 +85,7 @@
 		E69F5C2728A4C78600AD6634 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6091FF828950F1700ADD99D /* Coordinates.swift */; };
 		E69F5C2828A4C78600AD6634 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B0FD32898D75500054CD7 /* Hike.swift */; };
 		E69F5C2928A4C78600AD6634 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E62B0FD12898D6BA00054CD7 /* hikeData.json */; };
+		E69F5C2B28A4C84D00AD6634 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		E69F5C1328A4C70900AD6634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69F5C1628A4C70900AD6634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E69F5C1828A4C70900AD6634 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				E69F5C1128A4C70600AD6634 /* ContentView.swift */,
+				E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */,
 				E69F5C1328A4C70900AD6634 /* Assets.xcassets */,
 				E69F5C1828A4C70900AD6634 /* MacLandmarks.entitlements */,
 				E69F5C1528A4C70900AD6634 /* Preview Content */,
@@ -656,6 +659,7 @@
 				E69F5C1C28A4C76C00AD6634 /* MapView.swift in Sources */,
 				E69F5C2228A4C78500AD6634 /* ModelData.swift in Sources */,
 				E69F5C2828A4C78600AD6634 /* Hike.swift in Sources */,
+				E69F5C2B28A4C84D00AD6634 /* LandmarkDetail.swift in Sources */,
 				E69F5C1F28A4C76C00AD6634 /* FavoriteButton.swift in Sources */,
 				E69F5C2728A4C78600AD6634 /* Coordinates.swift in Sources */,
 				E69F5C2428A4C78600AD6634 /* Profile.swift in Sources */,
