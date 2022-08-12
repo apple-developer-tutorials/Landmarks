@@ -88,6 +88,7 @@
 		E69F5C2D28A6160800AD6634 /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2C28A6160800AD6634 /* LandmarksList.swift */; };
 		E69F5C2F28A61E7D00AD6634 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */; };
 		E69F5C3028A61E8000AD6634 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */; };
+		E69F5C3228A6245000AD6634 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C3128A6245000AD6634 /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		E69F5C2C28A6160800AD6634 /* LandmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksList.swift; sourceTree = "<group>"; };
 		E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		E69F5C3128A6245000AD6634 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +416,7 @@
 				E69F5C1828A4C70900AD6634 /* MacLandmarks.entitlements */,
 				E69F5C1528A4C70900AD6634 /* Preview Content */,
 				E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */,
+				E69F5C3128A6245000AD6634 /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -664,6 +667,7 @@
 				E69F5C2128A4C76C00AD6634 /* LandmarksApp.swift in Sources */,
 				E69F5C2028A4C76C00AD6634 /* LandmarkList.swift in Sources */,
 				E69F5C1E28A4C76C00AD6634 /* CircleImage.swift in Sources */,
+				E69F5C3228A6245000AD6634 /* LandmarkSettings.swift in Sources */,
 				E69F5C1C28A4C76C00AD6634 /* MapView.swift in Sources */,
 				E69F5C2228A4C78500AD6634 /* ModelData.swift in Sources */,
 				E69F5C2828A4C78600AD6634 /* Hike.swift in Sources */,
