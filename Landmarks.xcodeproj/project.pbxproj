@@ -86,6 +86,8 @@
 		E69F5C2928A4C78600AD6634 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E62B0FD12898D6BA00054CD7 /* hikeData.json */; };
 		E69F5C2B28A4C84D00AD6634 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */; };
 		E69F5C2D28A6160800AD6634 /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2C28A6160800AD6634 /* LandmarksList.swift */; };
+		E69F5C2F28A61E7D00AD6634 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */; };
+		E69F5C3028A61E8000AD6634 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +190,7 @@
 		E69F5C1828A4C70900AD6634 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		E69F5C2A28A4C84D00AD6634 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		E69F5C2C28A6160800AD6634 /* LandmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksList.swift; sourceTree = "<group>"; };
+		E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +413,7 @@
 				E69F5C1328A4C70900AD6634 /* Assets.xcassets */,
 				E69F5C1828A4C70900AD6634 /* MacLandmarks.entitlements */,
 				E69F5C1528A4C70900AD6634 /* Preview Content */,
+				E69F5C2E28A61E7D00AD6634 /* LandmarkCommands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -610,6 +614,7 @@
 				E62B100F289CDE3900054CD7 /* ProfileEditor.swift in Sources */,
 				E62B1004289A3CEB00054CD7 /* CategoryItem.swift in Sources */,
 				E6091FF32895079C00ADD99D /* CircleImage.swift in Sources */,
+				E69F5C3028A61E8000AD6634 /* LandmarkCommands.swift in Sources */,
 				E64289B82896CE5800837AEE /* BadgeSymbol.swift in Sources */,
 				E64289BA2896D16700837AEE /* RotatedBadgeSymbol.swift in Sources */,
 				E62B0FD02898D0B000054CD7 /* Badge.swift in Sources */,
@@ -655,6 +660,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E69F5C1228A4C70600AD6634 /* ContentView.swift in Sources */,
+				E69F5C2F28A61E7D00AD6634 /* LandmarkCommands.swift in Sources */,
 				E69F5C2128A4C76C00AD6634 /* LandmarksApp.swift in Sources */,
 				E69F5C2028A4C76C00AD6634 /* LandmarkList.swift in Sources */,
 				E69F5C1E28A4C76C00AD6634 /* CircleImage.swift in Sources */,
